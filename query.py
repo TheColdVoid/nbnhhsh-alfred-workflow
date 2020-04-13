@@ -13,6 +13,8 @@ def main(wf=Workflow3()):
     result = queryTrans(queryStr)
     for word in result:
         wf.add_item(word)
+    if len(result) == 0:
+        wf.add_item(u'未查询到该缩写的翻译')
     wf.send_feedback()
 
 
@@ -29,7 +31,7 @@ def queryTrans(queryStr):
 
     resJson = res.json()
     if len(resJson) == 0:
-        return [u'未查询到该缩写的翻译']
+        return []
 
     if 'trans' in resJson[0]:
         return resJson[0]['trans']
