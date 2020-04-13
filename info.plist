@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict/>
+	<key>createdby</key>
+	<string>TheVoid,itorr</string>
+	<key>description</key>
+	<string>「能不能好好说话？」 拼音首字母缩写翻译工具的Alfred工作流版本</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>能不能好好说话</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>32</integer>
+				<key>keyword</key>
+				<string>sx</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>cxz......</string>
+				<key>script</key>
+				<string>/usr/bin/python query.py '{query}'
+</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>通过「能不能好好说话？」网站查询缩写</string>
+				<key>title</key>
+				<string>查询缩写</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>75B0EE27-8969-4A08-821B-C1FBD8368F4C</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>1</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>argumenttext</key>
+				<string>sx </string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>53A5BA63-2278-4D9B-BCDC-D7F64C4B6057</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>「能不能好好说话？」 拼音首字母缩写翻译工具的Alfred工作流版本
+原版：https://github.com/itorr/nbnhhsh</string>
+	<key>uidata</key>
+	<dict>
+		<key>53A5BA63-2278-4D9B-BCDC-D7F64C4B6057</key>
+		<dict>
+			<key>xpos</key>
+			<integer>135</integer>
+			<key>ypos</key>
+			<integer>350</integer>
+		</dict>
+		<key>75B0EE27-8969-4A08-821B-C1FBD8368F4C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>130</integer>
+			<key>ypos</key>
+			<integer>200</integer>
+		</dict>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/TheColdVoid/nbnhhsh</string>
+</dict>
+</plist>
