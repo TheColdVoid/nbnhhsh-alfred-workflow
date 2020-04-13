@@ -7,9 +7,12 @@
 [@itorr](https://github.com/itorr)
 的
 [能不能好好说话？](https://github.com/itorr/nbnhhsh)
-工具制作的一个[Alfred](https://www.alfredapp.com)工具流,可以用于很方便地查询拼音首字母缩写
+工具制作的一个[Alfred](https://www.alfredapp.com)工具流,
+<br>
+可以用于很方便地查询拼音首字母缩写
 <br>
 工具流文件下载：https://github.com/TheColdVoid/nbnhhsh/blob/master/nbnhhsh.alfredworkflow
+<br>
 安装Alfred后双击该工具流文件即可自动导入至Alfred
 <br><br>
 ## 功能演示:
