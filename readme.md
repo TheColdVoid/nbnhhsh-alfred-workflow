@@ -14,6 +14,6 @@
 <br><br>
 ## 功能演示:
 * 直接使用
-![1.gif](http://upload-images.jianshu.io/upload_images/6514816-50709eebe0833e13.gif?imageMogr2/auto-orient/strip)
+![1.gif](https://github.com/TheColdVoid/nbnhhsh-alfred-workflow/blob/master/demo_gif/2_1.gif)
 * 使用快捷键划词查询
-![2.gif](http://upload-images.jianshu.io/upload_images/6514816-5e8c9ae4003cf721.gif?imageMogr2/auto-orient/strip)
+![2.gif](https://github.com/TheColdVoid/nbnhhsh-alfred-workflow/blob/master/demo_gif/1_0.gif)
