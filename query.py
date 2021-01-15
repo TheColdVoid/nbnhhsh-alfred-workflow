@@ -40,6 +40,5 @@ def queryTrans(queryStr):
 
 
 if __name__ == '__main__':
-    queryTrans('lmr')
     wf = Workflow3()
     sys.exit(wf.run(main))
