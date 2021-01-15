@@ -15,7 +15,7 @@
 
 
 
-工具流文件下载：https://github.com/TheColdVoid/nbnhhsh/blob/master/nbnhhsh.alfredworkflow
+工具流文件下载：https://github.com/TheColdVoid/nbnhhsh/raw/master/nbnhhsh.alfredworkflow
 
 
 
